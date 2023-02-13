@@ -12,9 +12,6 @@ public class BankAccountTester
     System.out.println("Numero di conto: " + account.getAccountNumber());
     System.out.println("Saldo iniziale: " + account.getBalance());
 
-    //System.out.println("Il comando è: " + action);
-    //System.out.println("Il valore è: " + value);
-
     boolean done = false;
 
     while (!done)
@@ -48,11 +45,17 @@ public class BankAccountTester
         System.out.println("Saldo attuale: " + account.getBalance());
       else if (action.equalsIgnoreCase("D"))
       {
-        account.deposit(Double.parseDouble(value));
+        if (account.deposit(Double.parseDouble(value)) == true)
+         System.out.println("Versamento effettuato: " + Double.parseDouble(value));
+        else
+         System.out.println("Versamento non autorizzato");
       } 
       else if (action.equalsIgnoreCase("W"))
       {
-        account.withdraw(Double.parseDouble(value));
+        if (account.withdraw(Double.parseDouble(value)) == true)
+         System.out.println("Prelievo effettuato: " + Double.parseDouble(value));
+        else
+         System.out.println("Prelievo non autorizzato");
       }
       else if (action.equalsIgnoreCase("A"))
         account.addInterest(Double.parseDouble(value));

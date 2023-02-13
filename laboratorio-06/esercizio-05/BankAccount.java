@@ -21,46 +21,42 @@ public class BankAccount
     }
   }
   
-  public void deposit(double amount)
+  public boolean deposit(double amount)
   {
     if (amount < 0)
     {
-      System.out.println("Versamento non autorizzato");
-      return;
+      return false;
     }
     
     else if (amount == 0)
     {
-      System.out.println("Versamento non corretto");
-      return;
+      return false;
     }
 
     else
     {
       balance = balance + amount;
-      System.out.println("Versamento effettuato: " + amount);
+      return true;
     }
   }
   
-  public void withdraw(double amount)
+  public boolean withdraw(double amount)
   {
     if (amount < 0)
     {
-      System.out.println("Prelievo non corretto");
-      return;
+      return false;
     }
     
     else
     {
       if (amount > balance)
       {
-        System.out.println("Prelievo non autorizzato");
-        return;
+        return false;
       }
       else
       {
         balance = balance - amount;
-        System.out.println("Prelievo effettuato: " + amount);
+        return true;
       }
     }
   }
