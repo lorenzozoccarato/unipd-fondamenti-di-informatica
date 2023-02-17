@@ -13,7 +13,7 @@ public class RecNumberPrinter
         }
     }
 
-    public static String listNumbers(int n)
+    private static String listNumbers(int n)
     {
         if (n <= 0) 
             throw new IllegalArgumentException();
@@ -29,7 +29,7 @@ public class RecNumberPrinter
 
 System.out.println(listNumbers(1, number));
 
-    public static String listNumbers(int start, int end) {
+    private static String listNumbers(int start, int end) {
         if (start > end) {
             return "";
         } else {

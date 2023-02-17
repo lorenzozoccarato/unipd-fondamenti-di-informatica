@@ -1,0 +1,4 @@
+Il browser Firefox si avvia dall'icona relativa già predisposta nella barra di comandi posta in alto (mondo con mouse), oppure da menu/internet/ , oppure da terminale scrivendo il comando firefox. Visitare i seguenti siti di interesse didattico per questo corso e per ciascun sito memorizzare un segnalibro.
+- Sito del corso, accessibile dalla piattaforma Moodle (http://stem.elearning.dei.unipd.it/). Consultare tutte le informazioni della sezione "Informazioni generali".
+- Sito dell'Aula Didattica Taliercio (http://www.adt.unipd.it/). Consultare tutte le informazioni contenute nelle sezioni "Info" e "Utilizzo dell'aula".
+- Sito del Dipartimento di Ingegneria dell'Informazione (http://www.dei.unipd.it/). Trovare l'orario dei corsi del I semestre dei corsi di Ingegneria dell'Informazione.

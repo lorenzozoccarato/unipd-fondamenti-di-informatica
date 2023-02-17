@@ -1,0 +1,7 @@
+Configurare i propri strumenti di lavoro.
+- Editor di testo kwrite. E` un editor di testi in formato grafico adatto alla programmazione. Si avvia dall'icona Editor di Testo nel desktop o da terminale col comando kwrite. E` obbligatorio configurarlo come segue, dal menu Impostazioni/Configura:
+  - /Configura Editor/Aspetto: selezionare la casella "Mostra numeri di riga"
+  - /Configura Editor/Indentazione: selezionare la casella "usa gli spazi invece delle tabulazioni"
+  - Configura Editor/Modifica: selezionare la casella "Inserisci spazi invece delle tabulazioni"
+- Editor di testo gedit. E` un altro editor di testi in formato grafico adatto alla programmazione. Si avvia dal Menu Strumenti o da terminale col comando gedit. Si consigliano caldamente le seguenti opzioni di configurazione, dal menu Visualizza/Preferenze
+   Editor: selezionare la casella "Inserisci spazi invece di tab" Vista: selezionare la casella "Mostra numeri di riga" Evidenziazione delle sintassi: selezionare la casella "Attiva evidenziazione sintassi", scegliere la modalità di evidenziazione "Java"

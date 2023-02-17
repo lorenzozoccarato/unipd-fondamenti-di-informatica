@@ -8,7 +8,7 @@ public class RecStringReverser
             System.out.println(reverseString(args[0]));
     }
 
-    public static String reverseString(String str)
+    private static String reverseString(String str)
     {
         if (str == null)
             throw new IllegalArgumentException();

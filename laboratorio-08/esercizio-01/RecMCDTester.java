@@ -31,7 +31,7 @@ public class RecMCDTester
         }
     }
 
-    public static int recursiveMCD(int n, int m , int r)
+    private static int recursiveMCD(int n, int m , int r)
     {
         if (r == 0)
         {
