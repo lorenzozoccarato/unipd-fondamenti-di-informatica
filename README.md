@@ -2,6 +2,9 @@
 
 Esercizi di Fondamenti di informatica del corso di laurea in ingegneria elettronica dell'a.a. 2022/2023
 
+## Esercizi da migliorare:
+- Laboratorio 5 Esercizio 8
+
 ## Esercizi da modificare:
 - Laboratorio 8 Esercizio 4
 - Laboratorio 8 Esercizio 5
